@@ -83,3 +83,27 @@ nav li{
     border: 2px solid orange;
     border-radius: 5px;
 }
+
+.paragraph{
+    font-size: 22px;
+    width: 30%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#p1{
+    color: rgb(75, 158, 181);
+    position: relative;
+    top: 100px;
+    left: 5%;
+}
+
+#p2{
+    color: white;
+    background-color: rgb(75, 158, 181);
+    border: 2px solid white;
+    position: relative;
+    top: 300px;
+    left: 60%;
+    padding: 20px;
+    border-radius: 5px;
+}
