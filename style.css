@@ -117,8 +117,33 @@ nav li{
     }
     #p1{
         width: 80%;
+        left: 10%;
+        background-color: turquoise;
+        border: 2px solid white;
     }
     #p2{
         width: 80%;
+        left: 10%;
     }
 }
+
+.section3 {
+            background-image:url(images/gradient2.jpg) ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+}
+
+.section3 h1 {
+    text-align: center;
+}
+
+.section3 p {
+    
+}
+
+
+
+
+
