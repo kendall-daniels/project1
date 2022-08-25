@@ -128,7 +128,7 @@ nav li{
 }
 
 .section3 {
-            background-image:url(images/gradient2.jpg) ;
+            background-image:url(images/abstract.jpg);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -140,10 +140,28 @@ nav li{
 }
 
 .section3 p {
-    
+    margin: 20px;
+    font-size: 20px;
+    color: blueviolet;
 }
 
+.section3 input{
+    height: 30px;
+    border-color: transparent;
+    color: purple;
+}
 
+.section3 input::placeholder{
+    text-align: center;
+    color: seagreen;
+    font-style: italic;
+    padding: 10px;
+}
 
-
-
+#button {
+    color: red;
+    background-color: seagreen;
+    font-size: 22px;
+    padding: 10px;
+    border-color: seagreen;
+}
