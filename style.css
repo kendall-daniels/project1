@@ -155,7 +155,7 @@ nav li{
     text-align: center;
     color: seagreen;
     font-style: italic;
-    padding: 10px;
+    
 }
 
 #button {
@@ -164,4 +164,9 @@ nav li{
     font-size: 22px;
     padding: 10px;
     border-color: seagreen;
+    cursor: pointer;
+}
+
+#sentence{
+    width: 80%;
 }
