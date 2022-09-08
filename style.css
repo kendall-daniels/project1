@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* outline: 2px solid red; */
 }
 
 nav {
@@ -12,7 +13,6 @@ nav {
 }
 
 nav ul {
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +20,7 @@ nav ul {
 }
 
 nav a {
-    color: orange;
+    color: white;
     text-decoration: none;
     font-size: 20px;
 }
@@ -39,22 +39,17 @@ nav li{
 }
 
 .section1 {
-    background-image: url(images/plant.jpg);
+    background-image: url(images/no.png);
     background-attachment: fixed;
 }
 
 .section2 {
-    background-image: url(images/gradient1.jpg);
+    background-image: url(images/sea.jpeg);
     background-attachment: fixed;
 }
 
 .section3 {
-    background-image: url(images/abstract.jpg);
-    background-attachment: fixed;
-}
-
-.section4 {
-    background-image: url(images/gradient2.jpg);
+    background-image: url(images/download.jpeg);
     background-attachment: fixed;
 }
 
@@ -68,11 +63,11 @@ nav li{
     width: 40%;
     padding: 20px 0 20px 0;
     font-size: 24px;
-    border-color: 2px solid orange;
+    border-color: 2px solid black;
     border-radius: 5px;
 }
 .intro {
-    color: orange;
+    color: white;
     background-color:rgba(0, 0, 0, 0.637);
     width: 40%;
     text-align: center;
@@ -80,7 +75,7 @@ nav li{
     position: relative;
     top: 400px;
     left: 30%;
-    border: 2px solid orange;
+    border: 2px solid black;
     border-radius: 5px;
 }
 
@@ -91,7 +86,7 @@ nav li{
 }
 
 #p1{
-    color: rgb(75, 158, 181);
+    color: white;
     position: relative;
     top: 100px;
     left: 5%;
@@ -99,13 +94,14 @@ nav li{
 
 #p2{
     color: white;
-    background-color: rgb(75, 158, 181);
+    background-color:black;
     border: 2px solid white;
     position: relative;
     top: 300px;
     left: 60%;
     padding: 20px;
     border-radius: 5px;
+    width: 20%;
 }
 
 
@@ -128,7 +124,7 @@ nav li{
 }
 
 .section3 {
-            background-image:url(images/abstract.jpg);
+            background-image:url(images/download.jpeg);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -142,31 +138,64 @@ nav li{
 .section3 p {
     margin: 20px;
     font-size: 20px;
-    color: blueviolet;
+    color: white;
 }
 
 .section3 input{
     height: 30px;
     border-color: transparent;
-    color: purple;
+    color: black;
 }
 
 .section3 input::placeholder{
     text-align: center;
-    color: seagreen;
+    color: black;
     font-style: italic;
     
 }
 
 #button {
-    color: red;
-    background-color: seagreen;
+    color: black;
+    background-color: white;
     font-size: 22px;
     padding: 10px;
-    border-color: seagreen;
+    border-color: black;
     cursor: pointer;
 }
 
 #sentence{
     width: 80%;
 }
+
+.section4 {
+    background-image: url(images/no1.jpg);
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+
+.section4 h1 {
+    color: #fff;
+    position: relative;
+    top: -100%;
+    border-color: black;
+}
+
+#letter {
+    position: relative;
+    top: -50px;
+    width: 100px;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+
